@@ -1,2 +1,3 @@
 # chatbot-go-docs
-Documentacion varia de ChatBot GO
+Documentacion de ChatBot GO
+Redirijase [Wiki](https://github.com/morrisopazo/chatbot-go-docs/wiki)
