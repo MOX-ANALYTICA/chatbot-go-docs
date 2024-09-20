@@ -26,5 +26,5 @@ Bienvenido a la Wiki Oficial de ChatBot Go!
 Puede interactuar con nuestro asistente personalizado [Lumin](https://go.morrisopazo-datascience.com/). Este asistente es capaz de responder sobre cualquier consulta que tenga de nuestro producto ChatBot Go!
 
 <p align="center">
-  <img src="../assets/go_logo.png" />
+  <img src="https://github.com/morrisopazo/chatbot-go-docs/blob/main/assets/go_logo.png" />
 </p>
