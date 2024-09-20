@@ -1,4 +1,4 @@
-# Chatbot Go! Docs
+# ChatBot Go! Docs
 Welcome to the Official ChatBot Go! Wiki
 
 # Index
