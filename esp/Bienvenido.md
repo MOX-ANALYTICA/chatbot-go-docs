@@ -20,7 +20,9 @@ Bienvenido a la Wiki Oficial de ChatBot Go!
 
 [8. Buenas Prácticas en Documentos](./8.-Buenas-Prácticas-en-Documentos.md)
 
-[9. Casos de Uso Implementados](./9.-Casos-de-Uso-Implementados.md)
+[9. Arquitectura de la Solución](./9.-Arquitectura-de-la-Solución.md)
+
+[10. Casos de Uso Implementados](./10.-Casos-de-Uso-Implementados.md)
 
 ## Asistente Lumin Bot
 Puede interactuar con nuestro asistente personalizado [Lumin](https://go.morrisopazo-datascience.com/). Este asistente es capaz de responder sobre cualquier consulta que tenga de nuestro producto ChatBot Go!
