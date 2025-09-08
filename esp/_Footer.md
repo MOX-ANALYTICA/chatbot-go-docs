@@ -1,1 +1,0 @@
-ChatBot Go! - Docs by [ChatBot Go!  Team](chatbotgo@morrisopazo.com)
