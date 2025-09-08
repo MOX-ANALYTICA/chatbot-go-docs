@@ -1,5 +1,4 @@
-# Casos de Uso Implementados
-## Clínica de Estética y Belleza
+# 8.1 Clínica de Estética y Belleza
 **Descripción:**
 En una clínica de estética y belleza, ChatBot Go! actúa como un mecanismo de preventa. Los futuros clientes interactúan con el chatbot a través de una aplicación de mensajería para explorar los tratamientos que ofrece la empresa.
 
@@ -13,7 +12,7 @@ En una clínica de estética y belleza, ChatBot Go! actúa como un mecanismo de 
 Los usuarios se sienten más confiados en la calidad del servicio tras interactuar con el chatbot. Una gran parte de las interacciones resulta en una consulta programada.
 
 
-## Empresa de Consultoría de arte y entretenimiento
+# 8.2 Empresa de Consultoría de arte y entretenimiento
 **Descripción:**
 ChatBot Go! permite a los usuarios interactuar con una biblioteca electrónica donde pueden consultar sobre contratos y cláusulas entre distintas empresas y artistas. También facilita el workflow de validaciones y devoluciones de mercancía entre proveedores de la cadena de suministro.
 
@@ -25,7 +24,7 @@ ChatBot Go! permite a los usuarios interactuar con una biblioteca electrónica d
 Datos de la empresa muestran que la automatización de estas consultas a través del chatbot reduce el tiempo de respuesta drásticamente, mejorando significativamente la eficiencia operativa.
 
 
-## Empresa de Consultoría de Estrategia y Planeamiento
+# 8.3 Empresa de Consultoría de Estrategia y Planeamiento
 **Descripción:**
 ChatBot Go! asiste a los clientes en la navegación por sus recursos estratégicos y de planificación. Responde preguntas y proporciona recomendaciones basadas en datos históricos y tendencias actuales del mercado.
 
@@ -37,7 +36,7 @@ ChatBot Go! asiste a los clientes en la navegación por sus recursos estratégic
 Un análisis interno revela que gran parte de los clientes utilizan el chatbot para obtener asesoría preliminar antes de agendar una consulta con un consultor humano.
 
 
-## Supermercado Mayorista y Minorista 
+# 8.4 Supermercado Mayorista y Minorista 
 **Descripción:**
 Como bot consultor de preventa, ChatBot Go! ayuda a los clientes a encontrar productos, comparar precios y entender promociones actuales. Además, sugiere productos basados en compras anteriores y preferencias del cliente.
 
@@ -46,7 +45,7 @@ Como bot consultor de preventa, ChatBot Go! ayuda a los clientes a encontrar pro
 - Incremento en la satisfacción y lealtad del cliente.
 
 
-## Estudio Buffet de Abogados
+# 8.5 Estudio Buffet de Abogados
 **Descripción:**
 ChatBot Go! proporciona información certera y rápida sobre distintas leyes y reglamentaciones relacionadas con la legislación comercial, todas estas contenidas en una gran cantidad de documentos.
 
@@ -55,7 +54,7 @@ ChatBot Go! proporciona información certera y rápida sobre distintas leyes y r
 - Ahorro de tiempo en consultas legales básicas.
 
 
-## Educación
+# 8.6 Educación
 **Descripción:**
 En el ámbito educativo, ChatBot Go! se utiliza en universidades para acceder a la biblioteca electrónica de la institución, tanto por parte del cuerpo docente como del alumnado.
 
@@ -65,7 +64,7 @@ En el ámbito educativo, ChatBot Go! se utiliza en universidades para acceder a 
 - Facilita el acceso a recursos educativos, ya que no es necesario estar físicamente el edificio de la biblioteca de la institución para realizar consultas, en un horario específico.
 
 
-## Consultora de SAP
+# 8.7 Consultora de SAP
 **Descripción:**
 ChatBot Go! se usa para acceder a la documentación y manuales técnicos de productos SAP, tanto por el equipo de consultores de la empresa como por los clientes.
 
@@ -77,7 +76,7 @@ ChatBot Go! se usa para acceder a la documentación y manuales técnicos de prod
 El uso del chatbot ha optimizado el acceso a la información y ha mejorado la eficiencia en la consultoría técnica.
 
 
-## Shopping Center
+# 8.8 Shopping Center
 **Descripción:**
 ChatBot Go! se utiliza para acceder a la información de los locales del shopping center, incluyendo el rubro al que se dedican. Además, proporciona información sobre promociones en diferentes tipos de ventas de artículos y servicios. Esto permite a los clientes obtener información actualizada y relevante de manera rápida y sencilla.
 
@@ -89,6 +88,3 @@ ChatBot Go! se utiliza para acceder a la información de los locales del shoppin
 
 **Resultados:**
 El uso de ChatBot Go! ha incrementado significativamente la interacción de los usuarios, incluso antes de ingresar al establecimiento. Esto ha resultado en un mayor compromiso y satisfacción del cliente, además de un aumento en las ventas y la fidelización.
-
-
-

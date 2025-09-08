@@ -1,4 +1,3 @@
-# Firma de Modelos AWS Bedrock
 Para comenzar con la firma de modelos en Bedrock, siga estos pasos:
 1. Ingrese a la cuenta AWS y acceda al servicio [Bedrock > Model Access](https://us-east-1.console.aws.amazon.com/bedrock/home?region=us-east-1#/modelaccess).
 2. En la parte superior de la interfaz verá un botón amarillo "Enable model access".
@@ -8,7 +7,7 @@ Para comenzar con la firma de modelos en Bedrock, siga estos pasos:
   <img src="https://github.com/morrisopazo/chatbot-go-docs/blob/main/assets/bdr_models.png" />
 </p>
 
-1. Para los modelos Anthropic será necesario enviar un formulario, especifique los siguientes datos:
+4. Para los modelos Anthropic será necesario enviar un formulario, especifique los siguientes datos:
    - Nombre de la empresa (cliente)
    - Rubro
    - URL de su sitio web
@@ -18,5 +17,5 @@ Para comenzar con la firma de modelos en Bedrock, siga estos pasos:
   <img src="https://github.com/morrisopazo/chatbot-go-docs/blob/main/assets/bdr_model_form.png" />
 </p>
 
-> ### Nota
-> - Si encuentra un error que impide la firma de los modelos seleccionados, es posible que se deba a que la cuenta es nueva y no tiene historial de gastos. En este caso, asegúrese de activar una instancia EC2 t2.small durante 15 minutos y vuelva a intentarlo.
+> **Nota**  
+> - Si encuentra un error que impide la firma de los modelos seleccionados, es posible que se deba a que la cuenta es nueva y no tiene historial de gastos. En este caso, asegúrese de activar una instancia EC2 **t2.micro** durante 15 minutos y vuelva a intentarlo.

@@ -1,4 +1,4 @@
-# Incluir Go! en Websites Propios
+# 1 Redirección Desde un Link
 Para añadir el enlace a la aplicación ChatBot Go! en las páginas de su empresa (página de inicio, landing page, etc.), incluya el siguiente código HTML en su página web. La aplicación se abrirá en una nueva pestaña del navegador del usuario y no en la misma página donde se está navegando.
 
 Para incluir el link directo desde una frase:
@@ -17,9 +17,10 @@ Para incluir en link en una imagen:
 </a>
 ```
 
-> **Nota.** Recuerde que debe tener acceso como administrador a dichas páginas o aplicaciones para poder modificarlas e incluir el enlace.
+> **Nota**  
+> Recuerde que debe tener acceso como administrador a dichas páginas o aplicaciones para poder modificarlas e incluir el enlace.
 
-### Observe el siguiente ejemplo:
+# 2 Ejemplo
 <a href="https://go.morrisopazo-datascience.com" style="font-family:arial;font-decorarion:none !Important; color:#000000;" target="_blank">
     <b>¿TE AYUDAMOS?</b>
 </a>
