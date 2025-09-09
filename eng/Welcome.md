@@ -10,7 +10,3 @@ Welcome to the Official Mox AI Chat Wiki
 
 ## Lumin Bot Assistant
 You can interact with our custom assistant [Lumin](https://go.morrisopazo-datascience.com/). This assistant is able to answer any questions you have about our Mox AI Chat product.
-
-<p align="center">
-  <img src="https://github.com/morrisopazo/chatbot-go-docs/blob/main/assets/go_logo.png" />
-</p>

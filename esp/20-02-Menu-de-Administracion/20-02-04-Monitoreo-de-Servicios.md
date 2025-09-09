@@ -5,7 +5,7 @@ Esta opción además de tener funciones informativas del estado de la aplicació
 - **Versión de la Aplicación**: adicionalmente, serám capaz de observar la versión de la aplicación desplegada en la parte inferior de la interfaz, justo de bajo de la caja de texto de chat.
 
 <p align="center">
-  <img src="https://github.com/morrisopazo/chatbot-go-docs/blob/main/assets/go_status_menu_ESP.png" />
+  <img src="https://github.com/MOX-ANALYTICA/chatbot-go-docs/blob/main/assets/go_status_menu_ESP.png" />
 </p>
 
 > **Nota**  

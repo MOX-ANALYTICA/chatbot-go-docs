@@ -11,7 +11,7 @@
 > - Si una colección no contiene documentos, se borrará automáticamente al cerrar el menú.
 
 <p align="center">
-  <img src="https://github.com/morrisopazo/chatbot-go-docs/blob/main/assets/go_documents_menu1_ESP.png" />
+  <img src="https://github.com/MOX-ANALYTICA/chatbot-go-docs/blob/main/assets/go_documents_menu1_ESP.png" />
 </p>
 
 # 5.2.2 Colección Pública
@@ -20,5 +20,5 @@ La colección **public** por defecto será persistente, incluso cuando no conten
 Podrá ubicar esta colección rápidamente mediante el ícono del **candado**.
 
 <p align="center">
-  <img src="https://github.com/morrisopazo/chatbot-go-docs/blob/main/assets/go_documents_menu2_ESP.png" />
+  <img src="https://github.com/MOX-ANALYTICA/chatbot-go-docs/blob/main/assets/go_documents_menu2_ESP.png" />
 </p>

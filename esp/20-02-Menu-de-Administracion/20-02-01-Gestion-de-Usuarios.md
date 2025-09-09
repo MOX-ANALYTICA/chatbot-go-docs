@@ -1,4 +1,6 @@
-# 5.1.1 Tipos de Usuario
+# Gestion de Usuarios y Grupos
+# 1. Usuarios
+# 1.1. Tipos de Usuario
 **Guest (Invitado)**
 - No requiere credenciales para interactuar.
 - Almacena pero no accede a su historial de conversaciones.
@@ -15,7 +17,7 @@
 - Capacidad de configuración de la integración con WhatsApp.
 - Capacidad para ver el estado de la aplicación y reiniciar los servicios en caso de fallo.
 
-# 5.1.2 Creación de un nuevo usuario
+# 1.2. Creación de un nuevo usuario
 1. Diríjase al menú presionando el botón **"..."** en la parte inferior.
 2. Seleccione la opción **"Administración de Usuarios"**.
 3. Se encontrará en la pestaña **"Crear Usuarios"**, ingrese los datos requeridos.
@@ -24,11 +26,14 @@
 > - La primera vez que el nuevo usuario inicie sesión con las credenciales asignadas, se le solicitará cambiar esta contraseña antes de poder hacer uso de la aplicación
 
 <p align="center">
-  <img src="https://github.com/morrisopazo/chatbot-go-docs/blob/main/assets/go_usermenu_ESP.png" />
+  <img src="https://github.com/MOX-ANALYTICA/chatbot-go-docs/blob/main/assets/go_usermenu_ESP.png" />
 </p>
 
 Si el usuario ya existe, puede realizar algunos cambios sobre él como administrador. Para esto diríjase a la pestaña **"Administrar Usuarios"** e introduzca el nombre de usuario correspondiente.
 
 <p align="center">
-  <img src="https://github.com/morrisopazo/chatbot-go-docs/blob/main/assets/go_usermenu_admin_ESP.png" />
+  <img src="https://github.com/MOX-ANALYTICA/chatbot-go-docs/blob/main/assets/go_usermenu_admin_ESP.png" />
 </p>
+
+# 2. Grupos
+# 2.1. Gestión de Usuarios

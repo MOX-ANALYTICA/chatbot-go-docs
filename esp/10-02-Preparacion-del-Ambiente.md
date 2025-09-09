@@ -14,25 +14,25 @@ Antes de crear el acceso para los técnicos, se solicitará que cargue política
 2. Recuerde hacerlo en dos políticas independientes, de la misma forma que se compartieron los archivos.
 3. Compruebe que fueron creadas correctamente.
 <p align="center">
-  <img src="https://github.com/morrisopazo/chatbot-go-docs/blob/main/assets/10-02_1.png" />
+  <img src="https://github.com/MOX-ANALYTICA/chatbot-go-docs/blob/main/assets/10-02_1.png" />
 </p>
 
 ### 1.2. Creación de Usuario IAM
 1. Ingrese a su cuenta AWS y diríjase al servicio de [IAM > Users](https://us-east-1.console.aws.amazon.com/iam/home?region=us-east-1#/users).
 2. Cree un usuario IAM, puede ser un nombre de su preferencia *(e.g. **dev-morris**)*, asegúrese que este tendrá acceso a la consola.
 <p align="center">
-  <img src="https://github.com/morrisopazo/chatbot-go-docs/blob/main/assets/10-02_2.png" />
+  <img src="https://github.com/MOX-ANALYTICA/chatbot-go-docs/blob/main/assets/10-02_2.png" />
 </p>
 
 3. Asigne las políticas anteriormente creadas a este usuario.
 <p align="center">
-  <img src="https://github.com/morrisopazo/chatbot-go-docs/blob/main/assets/10-02_3.png" />
+  <img src="https://github.com/MOX-ANALYTICA/chatbot-go-docs/blob/main/assets/10-02_3.png" />
 </p>
 
 4. Compruebe que el usuario fue correctamente creado.
 5. Envíe estas credenciales al equipo técnico como un **archivo .csv**, ellos se encargarán de configurar y verificar el acceso.
 <p align="center">
-  <img src="https://github.com/morrisopazo/chatbot-go-docs/blob/main/assets/10-02_4.png" />
+  <img src="https://github.com/MOX-ANALYTICA/chatbot-go-docs/blob/main/assets/10-02_4.png" />
 </p>
 
 ### 1.3. Creación de Rol de Despliegue
@@ -40,12 +40,12 @@ Los técnicos se encargarán de realizar este proceso, esta guía es informativa
 1. Diríjase al servicio [IAM > Roles](https://us-east-1.console.aws.amazon.com/iam/home?region=us-east-1#/roles) y cree un nuevo rol.
 2. Seleccione en tipo de identidad **"AWS Account"**, seleccione otra cuenta e introduzca el ID de la cuenta indicada.
 <p align="center">
-  <img src="https://github.com/morrisopazo/chatbot-go-docs/blob/main/assets/10-02_5.png" />
+  <img src="https://github.com/MOX-ANALYTICA/chatbot-go-docs/blob/main/assets/10-02_5.png" />
 </p>
 
 3. Nuevamente, seleccione las políticas personalizadas anteriormente generadas.
 <p align="center">
-  <img src="https://github.com/morrisopazo/chatbot-go-docs/blob/main/assets/10-02_6.png" />
+  <img src="https://github.com/MOX-ANALYTICA/chatbot-go-docs/blob/main/assets/10-02_6.png" />
 </p>
 
 4. Asigne el nombre **gh-actions-chatbot-go-role** al rol y presione el botón **Create Role**.
