@@ -1,8 +1,8 @@
-El widget **ChatBot Go!** permite personalizar su apariencia mediante variables de CSS, facilitando la adaptación visual del componente a las necesidades de cada proyecto sin necesidad de modificar directamente el archivo CSS original. A continuación, se explica cómo utilizar estas variables para cambiar aspectos específicos del estilo del widget.
+El widget **Mox AI Chat** permite personalizar su apariencia mediante variables de CSS, facilitando la adaptación visual del componente a las necesidades de cada proyecto sin necesidad de modificar directamente el archivo CSS original. A continuación, se explica cómo utilizar estas variables para cambiar aspectos específicos del estilo del widget.
 
 ## Instrucciones de Personalización
 
-Para personalizar el estilo del widget **ChatBot GO!**, defina las variables CSS en su propio archivo de estilos o directamente en el archivo HTML que incluya el componente. A continuación se detallan las variables disponibles y su función.
+Para personalizar el estilo del widget **Mox AI Chat**, defina las variables CSS en su propio archivo de estilos o directamente en el archivo HTML que incluya el componente. A continuación se detallan las variables disponibles y su función.
 
 ### Ejemplo de Implementación
 
@@ -62,7 +62,7 @@ chat-bot {
 | `--link-color`                   | Color a los `<a>` que aparece en el mensaje                                                           | `#007BFF`|
 ### Aplicación de Estilos
 
-Defina estas variables en el CSS de su proyecto para adaptar la apariencia del widget **ChatBot GO!**. El navegador aplicará estos valores sobre los estilos predeterminados, permitiendo una personalización visual completa sin modificar el código base del componente.
+Defina estas variables en el CSS de su proyecto para adaptar la apariencia del widget **Mox AI Chat**. El navegador aplicará estos valores sobre los estilos predeterminados, permitiendo una personalización visual completa sin modificar el código base del componente.
 
 # Referencias
 Lit Documentation. (n.d.). Using custom CSS properties in components. Recuperado de https://lit.dev/docs/components/styles/#customprops

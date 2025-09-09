@@ -1,6 +1,7 @@
+# 00-04 Casos De Uso Implementados
 # 8.1 Clínica de Estética y Belleza
 **Descripción:**
-En una clínica de estética y belleza, ChatBot Go! actúa como un mecanismo de preventa. Los futuros clientes interactúan con el chatbot a través de una aplicación de mensajería para explorar los tratamientos que ofrece la empresa.
+En una clínica de estética y belleza, Mox AI Chat actúa como un mecanismo de preventa. Los futuros clientes interactúan con el chatbot a través de una aplicación de mensajería para explorar los tratamientos que ofrece la empresa.
 
 **Beneficios:**
 - Información detallada sobre los componentes de cada tratamiento.
@@ -14,7 +15,7 @@ Los usuarios se sienten más confiados en la calidad del servicio tras interactu
 
 # 8.2 Empresa de Consultoría de arte y entretenimiento
 **Descripción:**
-ChatBot Go! permite a los usuarios interactuar con una biblioteca electrónica donde pueden consultar sobre contratos y cláusulas entre distintas empresas y artistas. También facilita el workflow de validaciones y devoluciones de mercancía entre proveedores de la cadena de suministro.
+Mox AI Chat permite a los usuarios interactuar con una biblioteca electrónica donde pueden consultar sobre contratos y cláusulas entre distintas empresas y artistas. También facilita el workflow de validaciones y devoluciones de mercancía entre proveedores de la cadena de suministro.
 
 **Beneficios:**
 - Reducción del tiempo de respuesta en consultas legales y contractuales.
@@ -26,7 +27,7 @@ Datos de la empresa muestran que la automatización de estas consultas a través
 
 # 8.3 Empresa de Consultoría de Estrategia y Planeamiento
 **Descripción:**
-ChatBot Go! asiste a los clientes en la navegación por sus recursos estratégicos y de planificación. Responde preguntas y proporciona recomendaciones basadas en datos históricos y tendencias actuales del mercado.
+Mox AI Chat asiste a los clientes en la navegación por sus recursos estratégicos y de planificación. Responde preguntas y proporciona recomendaciones basadas en datos históricos y tendencias actuales del mercado.
 
 **Beneficios:**
 - Acceso rápido a asesoría preliminar.
@@ -38,7 +39,7 @@ Un análisis interno revela que gran parte de los clientes utilizan el chatbot p
 
 # 8.4 Supermercado Mayorista y Minorista 
 **Descripción:**
-Como bot consultor de preventa, ChatBot Go! ayuda a los clientes a encontrar productos, comparar precios y entender promociones actuales. Además, sugiere productos basados en compras anteriores y preferencias del cliente.
+Como bot consultor de preventa, Mox AI Chat ayuda a los clientes a encontrar productos, comparar precios y entender promociones actuales. Además, sugiere productos basados en compras anteriores y preferencias del cliente.
 
 **Beneficios:**
 - Mejora en la experiencia de compra del cliente.
@@ -47,7 +48,7 @@ Como bot consultor de preventa, ChatBot Go! ayuda a los clientes a encontrar pro
 
 # 8.5 Estudio Buffet de Abogados
 **Descripción:**
-ChatBot Go! proporciona información certera y rápida sobre distintas leyes y reglamentaciones relacionadas con la legislación comercial, todas estas contenidas en una gran cantidad de documentos.
+Mox AI Chat proporciona información certera y rápida sobre distintas leyes y reglamentaciones relacionadas con la legislación comercial, todas estas contenidas en una gran cantidad de documentos.
 
 **Beneficios:**
 - Acceso rápido a información legal.
@@ -56,7 +57,7 @@ ChatBot Go! proporciona información certera y rápida sobre distintas leyes y r
 
 # 8.6 Educación
 **Descripción:**
-En el ámbito educativo, ChatBot Go! se utiliza en universidades para acceder a la biblioteca electrónica de la institución, tanto por parte del cuerpo docente como del alumnado.
+En el ámbito educativo, Mox AI Chat se utiliza en universidades para acceder a la biblioteca electrónica de la institución, tanto por parte del cuerpo docente como del alumnado.
 
 **Beneficios:**
 - Mejora la eficiencia en la búsqueda de información académica.
@@ -66,7 +67,7 @@ En el ámbito educativo, ChatBot Go! se utiliza en universidades para acceder a 
 
 # 8.7 Consultora de SAP
 **Descripción:**
-ChatBot Go! se usa para acceder a la documentación y manuales técnicos de productos SAP, tanto por el equipo de consultores de la empresa como por los clientes.
+Mox AI Chat se usa para acceder a la documentación y manuales técnicos de productos SAP, tanto por el equipo de consultores de la empresa como por los clientes.
 
 **Beneficios:**
 - Acceso inmediato a documentación técnica.
@@ -78,7 +79,7 @@ El uso del chatbot ha optimizado el acceso a la información y ha mejorado la ef
 
 # 8.8 Shopping Center
 **Descripción:**
-ChatBot Go! se utiliza para acceder a la información de los locales del shopping center, incluyendo el rubro al que se dedican. Además, proporciona información sobre promociones en diferentes tipos de ventas de artículos y servicios. Esto permite a los clientes obtener información actualizada y relevante de manera rápida y sencilla.
+Mox AI Chat se utiliza para acceder a la información de los locales del shopping center, incluyendo el rubro al que se dedican. Además, proporciona información sobre promociones en diferentes tipos de ventas de artículos y servicios. Esto permite a los clientes obtener información actualizada y relevante de manera rápida y sencilla.
 
 **Beneficios:**
 - Complementa o elimina la necesidad de un punto de información físico en el establecimiento.
@@ -87,4 +88,4 @@ ChatBot Go! se utiliza para acceder a la información de los locales del shoppin
 - Facilita la navegación y mejora la experiencia del cliente dentro del shopping center.
 
 **Resultados:**
-El uso de ChatBot Go! ha incrementado significativamente la interacción de los usuarios, incluso antes de ingresar al establecimiento. Esto ha resultado en un mayor compromiso y satisfacción del cliente, además de un aumento en las ventas y la fidelización.
+El uso de Mox AI Chat ha incrementado significativamente la interacción de los usuarios, incluso antes de ingresar al establecimiento. Esto ha resultado en un mayor compromiso y satisfacción del cliente, además de un aumento en las ventas y la fidelización.

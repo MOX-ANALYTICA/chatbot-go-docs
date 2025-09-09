@@ -1,5 +1,5 @@
-# ChatBot Go! Docs
-Welcome to the Official ChatBot Go! Wiki
+# Mox AI Chat Docs
+Welcome to the Official Mox AI Chat Wiki
 
 # Index
 ### Before Deployment
@@ -9,7 +9,7 @@ Welcome to the Official ChatBot Go! Wiki
 
 
 ## Lumin Bot Assistant
-You can interact with our custom assistant [Lumin](https://go.morrisopazo-datascience.com/). This assistant is able to answer any questions you have about our ChatBot Go! product.
+You can interact with our custom assistant [Lumin](https://go.morrisopazo-datascience.com/). This assistant is able to answer any questions you have about our Mox AI Chat product.
 
 <p align="center">
   <img src="https://github.com/morrisopazo/chatbot-go-docs/blob/main/assets/go_logo.png" />

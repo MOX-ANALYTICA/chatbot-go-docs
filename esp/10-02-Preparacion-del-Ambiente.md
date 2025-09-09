@@ -1,5 +1,5 @@
 # 2.1 Otorgar Acceso a Usuarios Técnicos
-Para llevar a cabo el proceso de despliegue de ChatBot Go!, es indispensable contar con acceso a la cuenta del cliente. Este acceso puede gestionarse de las siguientes maneras:
+Para llevar a cabo el proceso de despliegue de Mox AI Chat, es indispensable contar con acceso a la cuenta del cliente. Este acceso puede gestionarse de las siguientes maneras:
 
 1. **Cuenta SSO (recomendado)**: Utilizando un sistema de Single Sign-On, es la forma de acceso más segura ya que hace uso de credenciales a corto plazo.
 2. **Usuario IAM con Acceso a Consola**: Creando un usuario IAM con acceso a la consola, estas credenciales son de largo plazo y no proponen una medida de seguridad robusta.
@@ -56,9 +56,9 @@ Los técnicos se encargarán de realizar este proceso, esta guía es informativa
 6. Finalmente compruebe que el rol fue creado correctamente.
 
 # 2.2 Verificación de Disponibilidad de Recursos
-Asegúrese de que hay disponibilidad suficiente para los recursos necesarios en la región donde se va a desplegar ChatBot Go! Esto incluye las siguientes cuotas de servicios:
+Asegúrese de que hay disponibilidad suficiente para los recursos necesarios en la región donde se va a desplegar Mox AI Chat Esto incluye las siguientes cuotas de servicios:
 
-|          Recurso          | Cuota por Región / Cuenta | Disponibilidad para ChatBot Go! |
+|          Recurso          | Cuota por Región / Cuenta | Disponibilidad para Mox AI Chat |
 | :-----------------------: | :-----------------------: | :-----------------------------: |
 |            VPC            |             5             |                1                |
 |           EIPs            |             5             |                1                |
@@ -73,10 +73,10 @@ Asegúrese de que hay disponibilidad suficiente para los recursos necesarios en 
 |        ECS Cluster        |          10,000           |                1                |
 
 # 2.3 Recursos Clave
-1. **Bucket para Estado de Instalación**: ChatBot Go! guarda el estado de la instalación en un bucket de Amazon S3. Este bucket debe ser creado previamente con un nombre predeterminado.
-2. **Route 53 Hosted Zone**: aquí se gestionará el dominio o subdominio especificado para que ChatBot Go! opere. Una *hosted zone* será creada automáticamente si realizó la compra de dominio desde AWS.
-3. **Certificado SSL**: para que el dominio que redirija a la solución de ChatBot Go! pueda funcionar correctamente, será necesaria la creación y aprobación de un certificado SSL.
-4. **Modelos Bedrock:** el motor principal de la funcionalidad de IA Generativa de ChatBot Go! este servicio es usado tanto para procesar los documentos de entrada como para llevar un flujo conversacional con clientes cuando se necesite.
+1. **Bucket para Estado de Instalación**: Mox AI Chat guarda el estado de la instalación en un bucket de Amazon S3. Este bucket debe ser creado previamente con un nombre predeterminado.
+2. **Route 53 Hosted Zone**: aquí se gestionará el dominio o subdominio especificado para que Mox AI Chat opere. Una *hosted zone* será creada automáticamente si realizó la compra de dominio desde AWS.
+3. **Certificado SSL**: para que el dominio que redirija a la solución de Mox AI Chat pueda funcionar correctamente, será necesaria la creación y aprobación de un certificado SSL.
+4. **Modelos Bedrock:** el motor principal de la funcionalidad de IA Generativa de Mox AI Chat este servicio es usado tanto para procesar los documentos de entrada como para llevar un flujo conversacional con clientes cuando se necesite.
 
 # 2.4 Actividad en Cuentas Nuevas de AWS
 Para cuentas nuevas de AWS es necesario generar operaciones que demuestren que la cuenta está activa, este proceso es previo a la compra de dominios, para evitar el bloqueo en esta adquisición.

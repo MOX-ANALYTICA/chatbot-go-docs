@@ -1,9 +1,9 @@
 # 1 Redirección Desde un Link
-Para añadir el enlace a la aplicación ChatBot Go! en las páginas de su empresa (página de inicio, landing page, etc.), incluya el siguiente código HTML en su página web. La aplicación se abrirá en una nueva pestaña del navegador del usuario y no en la misma página donde se está navegando.
+Para añadir el enlace a la aplicación Mox AI Chat en las páginas de su empresa (página de inicio, landing page, etc.), incluya el siguiente código HTML en su página web. La aplicación se abrirá en una nueva pestaña del navegador del usuario y no en la misma página donde se está navegando.
 
 Para incluir el link directo desde una frase:
 ```
-<!-- url del ChatBot Go! -->
+<!-- url del Mox AI Chat -->
 <a href="https://go.morrisopazo-datascience.com/" style="font-family:arial;font-decorarion:none !Important; color:#000000;" target="_blank">
     <b>¿TE AYUDAMOS?</b>
 </a>
@@ -11,7 +11,7 @@ Para incluir el link directo desde una frase:
 
 Para incluir en link en una imagen:
 ```
-<!-- url del ChatBot Go! -->
+<!-- url del Mox AI Chat -->
 <a href="https://go.morrisopazo-datascience.com/" style="font-family:arial;font-decorarion:none !Important; color:#000000;" target="_blank">
   <img src="https://static.wixstatic.com/media/e2dc4e_a4abda6360834711aeedf5543c6b75ad~mv2.png" style="width:80px;">
 </a>

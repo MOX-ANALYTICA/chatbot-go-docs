@@ -1,6 +1,6 @@
-Para la adquisición de dominio/subdominio donde se alojará ChatBot Go!, es requisito que este sea gestionado desde la consola AWS utilizando el servicio de [AWS Route 53](https://us-east-1.console.aws.amazon.com/route53/v2/home?region=us-east-1#Home). A continuación, se detallan los distintos escenarios para configurar el dominio de ChatBot Go!
+Para la adquisición de dominio/subdominio donde se alojará Mox AI Chat, es requisito que este sea gestionado desde la consola AWS utilizando el servicio de [AWS Route 53](https://us-east-1.console.aws.amazon.com/route53/v2/home?region=us-east-1#Home). A continuación, se detallan los distintos escenarios para configurar el dominio de Mox AI Chat
 > **Nota**  
-> Si usted ya cuenta con un dominio gestionado en la consola de AWS no es necesario realizar una nueva compra, ya que ChatBot Go! será desplegado utilizando un nuevo subdominio a partir de este.
+> Si usted ya cuenta con un dominio gestionado en la consola de AWS no es necesario realizar una nueva compra, ya que Mox AI Chat será desplegado utilizando un nuevo subdominio a partir de este.
 
 Para tener una orientación general del proceso de adquisición de dominios y los distintos escenarios que se pueden presentar, observe el siguiente diagrama de flujo con detenimiento:
 
