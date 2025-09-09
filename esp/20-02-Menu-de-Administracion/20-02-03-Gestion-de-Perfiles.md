@@ -1,3 +1,4 @@
+# 20-02-03 Gestión de Perfiles
 # 5.3.1 Descripción
 Los perfiles de usuario son componentes que nos permiten controlar aspectos de la interacción de determinados usuarios con nuestra plataforma. Imaginemos el siguiente escenario, en nuestra empresa tenemos las áreas de ventas, finanzas y soporte. Además, tenemos documentos de ventas y manuales.
 Para reflejar este comportamiento en el sistema, podemos hacer lo siguiente:
@@ -6,7 +7,9 @@ Para reflejar este comportamiento en el sistema, podemos hacer lo siguiente:
 
 Ahora, por medio de **asociaciones**, seremos capaces de asignar estos perfiles a los usuarios de distintas áreas. También configuramos el bot para asignarle un rol de soporte, un analista de finanzas o un asistente de ventas, todo esto dentro del mismo entorno de la aplicación.
 
-![image](https://github.com/user-attachments/assets/2298dacb-af97-425d-a2ea-11c150dbdc08)
+<p align="center">
+  <img src="https://github.com/MOX-ANALYTICA/chatbot-go-docs/blob/main/assets/20-02-03_1.png" />
+</p>
 
 # 5.3.2 Atributos
 Desde los componentes **perfiles** somos capaces de configurar:

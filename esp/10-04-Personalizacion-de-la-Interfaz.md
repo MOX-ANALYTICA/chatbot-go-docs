@@ -1,4 +1,4 @@
-# Personalización de la Interfaz
+# 10-04 Personalización de la Interfaz
 ## 1. Imágenes por Defecto
 ChatBot Go! se instala con un conjunto de imágenes predeterminadas que pertenecientes al propio producto. Estas imágenes están contenidas en un archivo comprimido denominado [go-media-custom.zip](https://mo-chat-go-artifacts-905418032146.s3.us-east-1.amazonaws.com/web-media-custom/go-web-custom.zip). Este archivo sirve como referencia para conocer el tamaño, nombre y extensión de las imágenes.
 

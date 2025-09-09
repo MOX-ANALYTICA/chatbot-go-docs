@@ -1,4 +1,4 @@
-# Firma de Modelos AWS Bedrock
+# 10-03 Firma de Modelos AWS Bedrock
 Para comenzar con la firma de modelos en Bedrock, siga estos pasos:
 1. Ingrese a la cuenta AWS y acceda al servicio [Bedrock > Model Access](https://us-east-1.console.aws.amazon.com/bedrock/home?region=us-east-1#/modelaccess).
 2. En la parte superior de la interfaz verá un botón amarillo "Enable model access".

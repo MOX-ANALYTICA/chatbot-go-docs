@@ -1,3 +1,4 @@
+# 20-02-02 Gestión de Documentos
 # 5.2.1 Creación de Colección
 1. Diríjase al menú presionando el botón **"..."** en la parte inferior y seleccione la opción **"Administración de Archivos"**
 2. Verá una ventana en la que se muestran las colecciones de archivos como carpetas. Es **requerido** elegir una colección para subir un archivo.

@@ -1,4 +1,4 @@
-# Preparación del Ambiente
+# 10-02 Preparación del Ambiente
 ## 1. Otorgar Acceso a Usuarios Técnicos
 Para llevar a cabo el proceso de despliegue de ChatBot Go!, es indispensable contar con acceso a la cuenta del cliente. Este acceso puede gestionarse de las siguientes maneras:
 
