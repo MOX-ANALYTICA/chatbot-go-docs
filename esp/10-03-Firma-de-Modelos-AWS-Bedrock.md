@@ -5,7 +5,7 @@ Para comenzar con la firma de modelos en Bedrock, siga estos pasos:
 3. Solicite acceso a los siguientes modelos específicos como se muestra en la captura:
 
 <p align="center">
-  <img src="https://github.com/MOX-ANALYTICA/chatbot-go-docs/blob/main/assets/10-03_1.png" />
+  <img src="../assets/10-03_1.png" />
 </p>
 
 4. Para los modelos Anthropic será necesario enviar un formulario, especifique los siguientes datos:
@@ -15,7 +15,7 @@ Para comenzar con la firma de modelos en Bedrock, siga estos pasos:
    - Motivo de la solicitud: "We want to deploy a chatbot".
 
 <p align="center">
-  <img src="https://github.com/MOX-ANALYTICA/chatbot-go-docs/blob/main/assets/10-03_2.png" />
+  <img src="../assets/10-03_2.png" />
 </p>
 
 > **Nota**  

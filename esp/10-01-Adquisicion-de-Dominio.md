@@ -6,7 +6,7 @@ Para la adquisición de dominio/subdominio donde se alojará Mox AI Chat, es req
 Para tener una orientación general del proceso de adquisición de dominios y los distintos escenarios que se pueden presentar, observe el siguiente diagrama de flujo con detenimiento:
 
 <p align="center">
-  <img src="https://github.com/MOX-ANALYTICA/chatbot-go-docs/blob/main/assets/10-01_1-ESP.png" />
+  <img src="../assets/10-01_1-ESP.png" />
 </p>
 
 ## 1. Compra de Nuevo Dominio en AWS
@@ -14,7 +14,7 @@ Para tener una orientación general del proceso de adquisición de dominios y lo
 2. Haga clic en el botón amarillo **Register Domains** y utilice la caja de texto para buscar un dominio acorde con su marca o preferencia. Vea la captura a continuación:
 
 <p align="center">
-  <img src="https://github.com/MOX-ANALYTICA/chatbot-go-docs/blob/main/assets/10-01_2.png" />
+  <img src="../assets/10-01_2.png" />
 </p>
 
 3. En la siguiente pantalla elija el plan que desea pagar, la adquisición del dominio por defecto será por el plazo de un año y con renovación automática. Si todo está en orden, haga clic en **Next**.
@@ -29,7 +29,7 @@ Para tener una orientación general del proceso de adquisición de dominios y lo
    - Código Postal Zip
 
 <p align="center">
-  <img src="https://github.com/MOX-ANALYTICA/chatbot-go-docs/blob/main/assets/10-01_3.png" />
+  <img src="../assets/10-01_3.png" />
 </p>
 
 5. Finalmente espere a que la compra sea efectuada. Llegará un correo de confirmación con el que se hizo la compra del dominio, es **MUY IMPORTANTE** que se realice la aprobación del dominio desde allí.
@@ -55,5 +55,5 @@ En el caso de que usted cuente con un dominio ya adquirido por otros proveedores
 5. Si su proveedor de dominio no permite incluir los 4 valores de los registros NS a la vez, deberá incluir uno por uno siguiendo los pasos anteriores.
 
 <p align="center">
-  <img src="https://github.com/MOX-ANALYTICA/chatbot-go-docs/blob/main/assets/10-01_4-ESP.png" />
+  <img src="../assets/10-01_4-ESP.png" />
 </p>

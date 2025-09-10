@@ -58,10 +58,10 @@ Una vez que las imágenes y colores hayan sido personalizados a gusto, deberá s
 > **Importante**  
 > Es crucial que todos los archivos **mantengan el nombre** y formato **.png** originales para asegurar una integración sin problemas con la aplicación ChatBot Go!
 <p align="center">
-  <img src="https://github.com/MOX-ANALYTICA/chatbot-go-docs/blob/main/assets/10-04_1.gif" />
+  <img src="../assets/10-04_1.gif" />
 </p>
 
 4. Para asegurar que los recursos visuales se actualicen en el cache de CloudFront, será necesario ingresar a [Cloudfront > Distributions](https://us-east-1.console.aws.amazon.com/cloudfront/v4/home?region=us-east-1#/distributions), seleccionar la distribución de Chatbot Go! y crear un **invalidation** como se muestra a continuación.
 <p align="center">
-  <img src="https://github.com/MOX-ANALYTICA/chatbot-go-docs/blob/main/assets/10-04_2.png" />
+  <img src="../assets/10-04_2.png" />
 </p>

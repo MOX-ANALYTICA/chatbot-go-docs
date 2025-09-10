@@ -10,5 +10,5 @@ La figura de **Asociaciones** nos permite vincular **perfiles** y **usuarios** p
 6. Seleccione un item de cada lista para crear una asociación.
 
 <p align="center">
-  <img src="https://github.com/MOX-ANALYTICA/chatbot-go-docs/blob/main/assets/20-02-04_1.png" />
+  <img src="../../assets/20-02-04_1.png" />
 </p>

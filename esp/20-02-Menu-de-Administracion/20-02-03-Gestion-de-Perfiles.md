@@ -8,7 +8,7 @@ Para reflejar este comportamiento en el sistema, podemos hacer lo siguiente:
 Por medio de la figura de las **asociaciones**, seremos capaces de asignar estos perfiles a los usuarios de distintas áreas. También configuramos el bot para asignarle un rol de soporte, un analista de finanzas o un asistente de ventas, todo esto dentro del mismo entorno de la aplicación.
 
 <p align="center">
-  <img src="https://github.com/MOX-ANALYTICA/chatbot-go-docs/blob/main/assets/20-02-03_1.png" />
+  <img src="../../assets/20-02-03_1.png" />
 </p>
 
 ## 2. Atributos
@@ -51,5 +51,5 @@ Desde los componentes **perfiles** somos capaces de configurar:
 4. Presione en el ícono de edición del perfil que se desea editar y siga el mismo proceso descrito en el punto anterior.
 
 <p align="center">
-  <img src="https://github.com/MOX-ANALYTICA/chatbot-go-docs/blob/main/assets/20-02-03_2.png" />
+  <img src="../../assets/20-02-03_2.png" />
 </p>

@@ -1,7 +1,7 @@
 # 00-01 Arquitectura y Precio
 ## 1. Arquitectura de la Solución
 <p align="center">
-  <img src="https://github.com/MOX-ANALYTICA/chatbot-go-docs/blob/main/assets/ARCHITECTURE.drawio.png" />
+  <img src="../assets/ARCHITECTURE.drawio.png" />
 </p>
 
 ---
@@ -38,7 +38,7 @@ Actualmente, Mox AI Chat no cuenta con una característica para pausar los servi
 4. También verifique que exista el tag **Project: Chatbot-GO** en estas instancias.
 5. Seleccione las instancias y presione el botón de **Actions > Stop instance** como se muestra a continuación.
 
-![image](https://github.com/MOX-ANALYTICA/chatbot-go-docs/blob/main/assets/00-01_1.png)
+![image](../assets/00-01_1.png)
 
 Esto dejará inoperativo el modelo generativo.
 
@@ -49,4 +49,4 @@ Esto dejará inoperativo el modelo generativo.
 4. Seleccione el clúster y haga clic en **Actions > Stop temporarily**; lea con detenimiento la pantalla de confirmación.
 5. Actualmente, el tiempo máximo de pausa será de 7 días, después el servicio de RDS se encontrará disponible nuevamente.
 
-![image](https://github.com/MOX-ANALYTICA/chatbot-go-docs/blob/main/assets/00-01_2.png)
+![image](../assets/00-01_2.png)

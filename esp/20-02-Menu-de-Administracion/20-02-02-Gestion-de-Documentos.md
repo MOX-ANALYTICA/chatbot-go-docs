@@ -9,7 +9,7 @@
    4. **Subida de archivos:** aquí puede crear colecciones, carpetas y subir documentos.
    
 <p align="center">
-  <img src="https://github.com/MOX-ANALYTICA/chatbot-go-docs/blob/main/assets/20-02-02_1.png" />
+  <img src="../../assets/20-02-02_1.png" />
 </p>
 
 ## 2. Gestión de Colecciones
@@ -21,7 +21,7 @@
 5. Espere unos segundos para que la vista se actualice, estos documentos se estarán procesando para su consulta.
    
 <p align="center">
-  <img src="https://github.com/MOX-ANALYTICA/chatbot-go-docs/blob/main/assets/20-02-02_2.png" />
+  <img src="../../assets/20-02-02_2.png" />
 </p>
 
 > **Importante**  
@@ -38,7 +38,7 @@
 6. Espere unos segundos para que la vista se actualice, estos documentos se estarán procesando para su consulta.
 
 <p align="center">
-  <img src="https://github.com/MOX-ANALYTICA/chatbot-go-docs/blob/main/assets/20-02-02_3.png" />
+  <img src="../../assets/20-02-02_3.png" />
 </p>
 
 > **Nota**  
