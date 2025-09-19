@@ -1,4 +1,4 @@
-# Configuración Active Directory Local (Windows Server 2022)
+# Local Active Directory (Windows Server 2022)
 
 1. Open **Server Manager > Manage > Add Roles and Features**.
 2. **Installation Type:** select **Role-based feature installation**.

@@ -1,0 +1,1 @@
+# Azure Entra ID Configuration
