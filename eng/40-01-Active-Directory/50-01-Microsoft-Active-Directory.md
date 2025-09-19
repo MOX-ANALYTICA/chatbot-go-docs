@@ -1,4 +1,4 @@
-# Local Active Directory (Windows Server 2022)
+# Microsoft Active Directory (Windows Server 2022)
 
 1. Open **Server Manager > Manage > Add Roles and Features**.
 2. **Installation Type:** select **Role-based feature installation**.
@@ -14,6 +14,16 @@
 7. Now, in the **Server Manager** you'll see a yellow flag, now we'll need to configure each installed feature. Follow the rest of the guide in order.
 
 ## Active Directory Domain Services
+
+### Change Adapter IPv4 DNS
+
+If you're in a local environment, running on an EC2 instance do the following before starting to configure the AD.
+
+1. On the **Windows search bar** search for **Network Status**.
+2. Once the window is opened, click on **Change adapter options**.
+3. Right-click on **Ethernet 3 > Properties** and select **Internet Protocol Version 4 (TCP/IPv4) > Properties**.
+4. Update the **Preferred DNS server** to the **Private IP address** of the EC2 Instance.
+5. Click on **Ok** and close the windows.
 
 ### Promoting the Server to a Domain Controller
 
