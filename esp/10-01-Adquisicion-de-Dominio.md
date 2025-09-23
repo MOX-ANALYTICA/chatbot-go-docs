@@ -1,4 +1,5 @@
 # 10-01 Adquisición de Dominio
+
 Para la adquisición de dominio/subdominio donde se alojará Mox AI Chat, es requisito que este sea gestionado desde la consola AWS utilizando el servicio de [AWS Route 53](https://us-east-1.console.aws.amazon.com/route53/v2/home?region=us-east-1#Home). A continuación, se detallan los distintos escenarios para configurar el dominio de Mox AI Chat
 > **Nota**  
 > Si usted ya cuenta con un dominio gestionado en la consola de AWS no es necesario realizar una nueva compra, ya que Mox AI Chat será desplegado utilizando un nuevo subdominio a partir de este.
@@ -10,6 +11,7 @@ Para tener una orientación general del proceso de adquisición de dominios y lo
 </p>
 
 ## 1. Compra de Nuevo Dominio en AWS
+
 1. Diríjase al servicio [AWS Route 53 > Register Domains](https://us-east-1.console.aws.amazon.com/route53/domains/home?region=us-east-1#/)
 2. Haga clic en el botón amarillo **Register Domains** y utilice la caja de texto para buscar un dominio acorde con su marca o preferencia. Vea la captura a continuación:
 
@@ -38,14 +40,15 @@ Para tener una orientación general del proceso de adquisición de dominios y lo
 > - Si necesita ayuda con este proceso estamos dispuestos a apoyar coordinando una reunión previamente.
 > - La compra de dominio desde Route 53 **no se puede efectuar con créditos de la cuenta de AWS**, por el contrario, se descontará del medio de pago configurado para la cuenta.
 
-### 1.1. Configuración de Dominio Adquirido en otro Proveedor
+## 2. Configuración de Dominio Adquirido en otro Proveedor
 En el caso de que usted cuente con un dominio ya adquirido por otros proveedores de dominio (GoDaddy, Hostinger, etc.) podremos configurar un **subdominio** en su cuenta de AWS. Sin embargo, esto tendrá una restricción: sólo se podrán configurar subdominios en aquellos proveedores que permitan la creación re **registros NS**.
 
 > **Nota**  
 > Si el **proveedor de dominio externo no es apto** según la evaluación de nuestros técnicos, tendrá que seguir las instrucciones del anterior punto para comprar un nuevo dominio en AWS.
 
-### 1.2. Inclusión de Registros NS
-1. El equipo técnico encargado del despliegue generará una serie de registros que usted deberá incluir en su proveedor de dominio.
+### 2.1. Inclusión de Registros NS
+
+1. Se generarán valores NS a partir de la creación de una **HZ** en **Route 53** destinada al servicio del chatbot (ej. **chatbot.domain.com**).
 2. Diríjase a la consola de su proveedor, seleccione el dominio correspondiente.
 3. Diríjase a la opción para crear registros del dominio (generalmente llamados **registros NS**).
 4. Elija el tipo **registros NS**, aquí pegará los valores que se compartieron. Generalmente se pedirán los siguientes tres datos:
@@ -57,3 +60,14 @@ En el caso de que usted cuente con un dominio ya adquirido por otros proveedores
 <p align="center">
   <img src="../assets/10-01_4-ESP.png" />
 </p>
+
+## 3. Configuración Certificado SSL
+
+1. Diríjase al servicio de **AWS Certificate Manager** y cree un certificado utilizando los siguientes subdominios:
+   - ***.chatbot.domain.com**
+   - **chatbot.domain.com**
+2. Cree los valores CNAME del certificado en la **HZ** configurada para el subdominio.
+3. Espere a que el certificado SSL muestre el estado de **aprobado**.
+
+> **Nota**
+> Si el proceso de configuración de registros NS se realizó de forma correcta, el proceso de aprobación del certificado SSL debería ser casi inmediato.
