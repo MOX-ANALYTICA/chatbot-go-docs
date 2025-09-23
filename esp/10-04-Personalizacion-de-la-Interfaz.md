@@ -1,6 +1,6 @@
 # 10-04 Personalización de la Interfaz
 ## 1. Imágenes por Defecto
-ChatBot Go! se instala con un conjunto de imágenes predeterminadas que pertenecientes al propio producto. Estas imágenes están contenidas en un archivo comprimido denominado [go-media-custom.zip](https://mo-chat-go-artifacts-905418032146.s3.us-east-1.amazonaws.com/web-media-custom/go-web-custom.zip). Este archivo sirve como referencia para conocer el tamaño, nombre y extensión de las imágenes.
+Mox AI Chat se instala con un conjunto de imágenes predeterminadas que pertenecientes al propio producto. Estas imágenes están contenidas en un archivo comprimido denominado [go-media-custom.zip](https://mo-chat-go-artifacts-905418032146.s3.us-east-1.amazonaws.com/web-media-custom/go-web-custom.zip). Este archivo sirve como referencia para conocer el tamaño, nombre y extensión de las imágenes.
 
 ## 2. Pasos para Personalizar Imágenes y Colores
 1. Descargue el archivo comprimido desde el siguiente link [go-media-custom.zip](https://mo-chat-go-artifacts-905418032146.s3.us-east-1.amazonaws.com/web-media-custom/go-web-custom.zip).
@@ -56,12 +56,12 @@ Una vez que las imágenes y colores hayan sido personalizados a gusto, deberá s
 3. Finalmente, confirme la acción de subida y corrobore que las imágenes fueron actualizadas satisfactoriamente en la aplicación web.
 
 > **Importante**  
-> Es crucial que todos los archivos **mantengan el nombre** y formato **.png** originales para asegurar una integración sin problemas con la aplicación ChatBot Go!
+> Es crucial que todos los archivos **mantengan el nombre** y formato **.png** originales para asegurar una integración sin problemas con la aplicación Mox AI Chat
 <p align="center">
   <img src="../assets/10-04_1.gif" />
 </p>
 
-4. Para asegurar que los recursos visuales se actualicen en el cache de CloudFront, será necesario ingresar a [Cloudfront > Distributions](https://us-east-1.console.aws.amazon.com/cloudfront/v4/home?region=us-east-1#/distributions), seleccionar la distribución de Chatbot Go! y crear un **invalidation** como se muestra a continuación.
+4. Para asegurar que los recursos visuales se actualicen en el cache de CloudFront, será necesario ingresar a [Cloudfront > Distributions](https://us-east-1.console.aws.amazon.com/cloudfront/v4/home?region=us-east-1#/distributions), seleccionar la distribución de Mox AI Chat y crear un **invalidation** como se muestra a continuación.
 <p align="center">
   <img src="../assets/10-04_2.png" />
 </p>

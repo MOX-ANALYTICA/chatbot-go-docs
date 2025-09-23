@@ -1,10 +1,10 @@
-# Acerca de MOX AI Chat
+# Acerca de Mox AI Chat
 
-MOX AI Chat es una solución de inteligencia artificial generativa (GenAI) diseñada para crear un asistente virtual personalizado. Utiliza la información de los documentos de su empresa para ofrecer respuestas precisas y confiables a clientes y usuarios.
+Mox AI Chat es una solución de inteligencia artificial generativa (GenAI) diseñada para crear un asistente virtual personalizado. Utiliza la información de los documentos de su empresa para ofrecer respuestas precisas y confiables a clientes y usuarios.
 
 ---
 
-## Beneficios de MOX AI Chat
+## Beneficios de Mox AI Chat
 
 * **Rápido despliegue**: Se instala de manera ágil en una cuenta de AWS y en un plazo de tiempo corto.
 * **Costo accesible**: Su precio se adapta a las características y funcionalidades que se decidan implementar.
