@@ -116,7 +116,7 @@ Now that you have a name and a DNS record for it, you can create and enroll the 
 6. Right-click the **Web Server** template and select **Duplicate Template**.
 7. On the **General** tab, give your new template a name like `ADFS-Certificate-Template`, also set the **Vality period** (e.g. 3 years).
 8. On the **Subject Name** tab, ensure **Supply in the request** is selected. This allows you to specify the DNS name later.
-9. On the **Security** tab, select your **Administrator**'s computer account and give it **Read** and **Enroll** permissions.
+9. On the **Security** tab, select your **Administrator**'s computer account and give it **Read** and **Enroll** permissions. Click **Ok**.
 10. Back in the main **Certification Authority** console, right-click **Certificate Templates > New > Certificate Template to Issue**. Select your new `ADFS-Certificate-Template`.
 
 ---
@@ -128,10 +128,10 @@ Now that you have a name and a DNS record for it, you can create and enroll the 
 3. Right-click on the "Certificates" folder and select **All Tasks > Request New Certificate...**
 4. In the wizard, click **Next** twice to get to the "Request Certificates" page.
 5. You should now see the `ADFS-Certificate-Template` you created. Click the link that says **"More information is required to enroll for this certificate. Click here to configure settings."**
-6. In the **Subject name** section, from the **Type** dropdown, select **Common name**.
+6. In the **Subject name > Type** dropdown, select **Common name**.
 7. In the **Value** box, enter the federation service name you chose (e.g., `sts.yourdomain.local`).
 8. Click **Add**.
-9. Now, from the **Type** dropdown, select **DNS**.
+9. In the **Alternative name > Type** dropdown, select **DNS**.
 10. In the **Value** box, enter the same federation service name (`sts.yourdomain.local`).
 11. Click **Add**, then click **OK**.
 12. Click **Enroll** to complete the request.
@@ -145,8 +145,9 @@ The certificate will be created and stored in your computer's personal certifica
 1. Now follow the configuration wizard for **ADFS**.
 2. Now you'll be able to select the domain you configured (`sts.yourdomain.local`).
 3. The **Specify Service Account** select **use an existing domain user account**, select the user you created for the **ADFS** (`svc-adfs`) and specify the password you configured.
-4. Follow the remaining steps to finish the AD FS configuration. The wizard will then perform a prerequisite check and complete the installation.
-5. At the end of the installation, the **ADFS** will show warnings about the service. All of these warnings are informational in your specific test scenario. The most important step now is to restart the server to complete the AD FS configuration
+4. Follow the remaining steps leaving the default configuration.
+5. To finish the AD FS configuration, the wizard will then perform a prerequisite check and complete the installation.
+6. At the end of the installation, the **ADFS** will show warnings about the service. All of these warnings are informational in your specific test scenario. The most important step now is to restart the server to complete the AD FS configuration
 
 ### Generating the Federation Metadata XML file
 

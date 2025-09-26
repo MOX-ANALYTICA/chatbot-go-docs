@@ -92,7 +92,7 @@ Based on your requirements, you can now proceed with the instructions for config
 
 ### Relying Party Trust Claims
 
-1. **Right-click** on the created relying party trust and select **Edit Issuance Claim Policy**.
+1. **Right-click** on the created relying party trust and select **Edit Claim Issuance Policy**.
 2. **Remove** any claim that are not recognized or are not from Cognito.
 3. Click on **Add Rule**, all rules will use the **Send LDAP Attributes...** for the **Claim rule template**.
 4. Now you'll need to add **three rules**, one by one with the following specifications. **Don't add the claims in a single rule**:
