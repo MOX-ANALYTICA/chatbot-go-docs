@@ -1,9 +1,10 @@
 # 10-02 Preparación del Ambiente
 ## 1. Otorgar Acceso a Usuarios Técnicos
 Para llevar a cabo el proceso de despliegue de Mox AI Chat, es indispensable contar con acceso a la cuenta del cliente. Este acceso puede gestionarse de las siguientes maneras:
-
-1. **Cuenta SSO (recomendado)**: Utilizando un sistema de Single Sign-On, es la forma de acceso más segura ya que hace uso de credenciales a corto plazo.
-2. **Usuario IAM con Acceso a Consola**: Creando un usuario IAM con acceso a la consola, estas credenciales son de largo plazo y no proponen una medida de seguridad robusta.
+1. Cuenta de AWS destinada al despliegue del chatbot.
+2. Acceso Usuario IAM a la cuenta, adjunto los permisos IAM requeridos para el despliegue a este correo (gh-actions-polp.json y gh-actions-polp-misc.json).
+3. Subdominio lia.ucchristus.cl configurado como HZ en Route 53, esto se hace vinculando los registros NS al registro del subdominio interno que ustedes gestionan.
+4. Certificado SSL aprobado en el servicio AWS Certificate Manager para los subdominios lia.ucchristus.cl y *.lia.ucchristus.cl. Si los registros NS se configuraron de forma correcta, este proceso debería ser casi inmediato.
 
 > **Nota**  
 > - Es esencial que este acceso esté garantizado con suficiente antelación al proceso de despliegue, es importante coordinar con el equipo técnico previamente para determinar quién contará con el acceso a la cuenta.
