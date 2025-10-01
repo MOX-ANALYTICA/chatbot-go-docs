@@ -19,7 +19,7 @@
 >
 > ```bash
 > aws cognito-idp describe-identity-provider \
->  --user-pool-id us-east-1_at3jezrxA \
+>  --user-pool-id USER_POOL_ID \
 >  --provider-name chat-ad-provider
 > ```
 
@@ -39,11 +39,15 @@
 
 1. Once your **IdP** was created, go to its configuration and press **Attribute Mapping > Edit**
 2. Specify exactly the following attributes:
-   - **email** - E-Mail Address
-   - **name** - Name
-   - **username** - Name ID
+
+   | User Pool Attribute | SAML Attribute (Friendly Name) | SAML Attribute (Full URI)                                            |
+   | ------------------- | ------------------------------ | -------------------------------------------------------------------- |
+   | email               | E-Mail Address                 | `http://schemas.xmlsoap.org/ws/2005/05/identity/claims/emailaddress` |
+   | name                | Name                           | `http://schemas.xmlsoap.org/ws/2005/05/identity/claims/name`         |
+   | username            | Name ID                        | NameID element (not a claim URI)                                     |
+
 3. Click on **Save changes**.
-4. Also, in your identity provider don't forget to donwload the **signing certificate** and the **metadata.xml** from Cognito.
+4. Also, in your identity provider don't forget to download the **signing certificate** and the **metadata.xml** from Cognito.
 5. Click on **View signing certificate**, a window will open, there press on **Download as .crt**. After the download, click on **Close**.
 6. Now go to **Metadata document** section and press on the **metadata.xml** download link.
 
@@ -74,11 +78,14 @@ This section outlines the essential data you'll need from your Amazon Cognito us
 1. In cognito userpool go to **Overview** and copy the **User Pool ID**.
 2. In cognito userpool go to **Branding > Domain** and copy the **Domain**.
 3. Using the information you gathered above, you'll need to construct three key endpoints:
-   - **URN Service Provider:** `urn:amazon:cognito:sp:USERPOOL_ID`
-   - **Assertion Consumer Service (ACS):** `URSERPOOL_DOMAIN/saml2/idpresponse`
-   - **Metadata URL:** `URSERPOOL_DOMAIN/saml2/idp/metadata`
-   - **Signing Certificate File** the `chat-userpool.crt` file you downloaded from the **IdP**.
-   - **Metadata File** the `metadata.xml` file you downloaded from the **IdP**.
+
+   | Component                            | Value                                            |
+   | ------------------------------------ | ------------------------------------------------ |
+   | **URN Service Provider**             | `urn:amazon:cognito:sp:USERPOOL_ID`              |
+   | **Assertion Consumer Service (ACS)** | `USERPOOL_DOMAIN/saml2/idpresponse`              |
+   | **Metadata URL**                     | `USERPOOL_DOMAIN/saml2/idp/metadata`             |
+   | **Signing Certificate File**         | `chat-userpool.crt` file downloaded from the IdP |
+   | **Metadata File**                    | `metadata.xml` file downloaded from the IdP      |
 
 Based on your requirements, you can now proceed with the instructions for configuring either **Active Directory Federation Services (AD FS)** or **Azure Entra ID**.
 
@@ -114,15 +121,13 @@ Based on your requirements, you can now proceed with the instructions for config
 2. **Remove** any claim that are not recognized or are not from Cognito.
 3. Click on **Add Rule**, all rules will use the **Send LDAP Attributes...** for the **Claim rule template**.
 4. Now you'll need to add **three rules**, one by one with the following specifications. **Don't add the claims in a single rule**:
-   1. **Rule name:** email
-      - **LDAP Attribute:** E-Mail-Addresses
-      - **Outgoing Claim:** E-Mail Address
-   2. **Rule name:** name
-      - **LDAP Attribute:** Display-Name
-      - **Outgoing Claim:** Name
-   3. **Rule name:** username
-      - **LDAP Attribute:** SAM-Account-Name
-      - **Outgoing Claim:** Name ID
+
+   | Rule Name | LDAP Attribute   | Outgoing Claim Type |
+   | --------- | ---------------- | ------------------- |
+   | email     | E-Mail-Addresses | E-Mail Address      |
+   | name      | Display-Name     | Name                |
+   | username  | SAM-Account-Name | Name ID             |
+
 5. Click on **Ok** and close the window.
 
 ---
@@ -133,5 +138,3 @@ Based on your requirements, you can now proceed with the instructions for config
 2. On the shell, paste the command `Restart-Service adfssrv`.
 3. Wait until it restarts, you can check it's status by using the command `Get-Service adfssrv`.
 4. The **AD FS** integration with **Congito** should be working now.
-
-## Integrate with Azure Entra ID
